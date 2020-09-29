@@ -2,7 +2,7 @@ import React from 'react';
 import './list.css';
 import Card from './card';
 
-function List(props){
+export default function List(props){
 
     const arrOfCards = props.cards.map((card) => 
         <li key={card.id}>
@@ -23,6 +23,3 @@ function List(props){
     )
 };
 
-export default {
-    List,
-}

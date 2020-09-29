@@ -1,7 +1,8 @@
 import React from 'react';
 import './card.css';
 
-function Card(props){
+
+ export default function Card(props){
     return (
         <div className='Card'>
             <h3>{props.title}</h3>
@@ -10,6 +11,3 @@ function Card(props){
     )
 }
 
-export default{
-    Card,
-}
